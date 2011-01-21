@@ -1,0 +1,2 @@
+class Cr < Studentprofile
+end

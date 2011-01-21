@@ -1,0 +1,2 @@
+class Lecturer < Facultyprofile
+end

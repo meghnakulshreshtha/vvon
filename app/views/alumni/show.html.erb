@@ -1,0 +1,22 @@
+<h1>Alumni#show</h1>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Yop:</b>
+  <%= @alumniprofile.yop %>
+</p>
+
+<p>
+  <b>Company:</b>
+  <%= @alumniprofile.company %>
+</p>
+
+<p>
+  <b>Jobprofile:</b>
+  <%= @alumniprofile.jobprofile %>
+</p>
+
+
+<%= link_to 'Edit', edit_alumniprofile_path(@alumniprofile) %> |
+<%= link_to 'Back', alumniprofiles_path %>
+<p>Find me in app/views/alumni/show.html.erb</p>

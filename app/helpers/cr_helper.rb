@@ -1,0 +1,2 @@
+module CrHelper
+end

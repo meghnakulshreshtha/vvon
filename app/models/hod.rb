@@ -1,0 +1,2 @@
+class Hod < Facultyprofile
+end

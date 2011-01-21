@@ -1,0 +1,2 @@
+module FacultyprofilesHelper
+end

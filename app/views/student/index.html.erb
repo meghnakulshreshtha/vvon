@@ -1,0 +1,32 @@
+<h1>Student#index</h1>
+<h1>Listing studentprofiles</h1>
+
+<table>
+  <tr>
+    <th>Usn</th>
+    <th>Dept</th>
+    <th>Sem</th>
+    <th>Type</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @studentprofiles.each do |studentprofile| %>
+  <tr>
+    <td><%= studentprofile.usn %></td>
+    <td><%= studentprofile.dept %></td>
+    <td><%= studentprofile.sem %></td>
+    <td><%= studentprofile.type %></td>
+    <td><%= link_to 'Show', studentprofile %></td>
+    <td><%= link_to 'Edit', edit_studentprofile_path(studentprofile) %></td>
+    <td><%= link_to 'Destroy', studentprofile, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Studentprofile', new_studentprofile_path %>
+
+<p>Find me in app/views/student/index.html.erb</p>
