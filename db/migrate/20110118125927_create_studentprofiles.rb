@@ -4,7 +4,7 @@ class CreateStudentprofiles < ActiveRecord::Migration
       t.string :usn
       t.string :dept
       t.string :sem
-      t.string :type
+      t.string :role ="cr",:default => "normal"
 
       t.timestamps
     end

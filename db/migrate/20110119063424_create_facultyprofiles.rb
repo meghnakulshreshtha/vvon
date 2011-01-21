@@ -2,7 +2,7 @@ class CreateFacultyprofiles < ActiveRecord::Migration
   def self.up
     create_table :facultyprofiles do |t|
       t.string :dept
-      t.string :type
+      t.string :role, :default => "lecturer"
       t.timestamps
     end
   end
