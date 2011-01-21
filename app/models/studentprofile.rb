@@ -18,5 +18,6 @@ end
 alias_method_chain :new, :cast 
 
 end 
-
+has_many :message
+has_one :status
 end
