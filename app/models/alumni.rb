@@ -1,3 +1,3 @@
 class Alumni < User
-has_one :Alumniprofile
+  has_one :alumniprofile
 end

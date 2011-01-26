@@ -1,3 +1,3 @@
 class Faculty < User
-has_one :Facultyprofile
+  has_one :facultyprofile
 end

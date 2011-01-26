@@ -1,3 +1,3 @@
 class Student < User
-has_one :Studentprofile
+  has_one :studentprofile
 end
